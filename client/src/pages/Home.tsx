@@ -8,14 +8,7 @@ import { Link } from 'wouter';
 import { Calendar, Video, Star, Award, User, Zap, Heart, Shield, Smile, Baby, Sparkles } from 'lucide-react';
 
 const services = [
-  {
-    title: 'Laser Dentistry',
-    description: 'Advanced laser technology for painless procedures with faster healing and minimal discomfort.',
-    icon: <Zap />,
-    image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250',
-    slug: 'laser'
-  },
-  {
+{
     title: 'Root Canal Treatment',
     description: 'Expert endodontic care to save your natural teeth with advanced pain management techniques.',
     icon: <Heart />,
@@ -28,6 +21,13 @@ const services = [
     icon: <Shield />,
     image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250',
     slug: 'implants'
+  },
+  {
+    title: 'Laser Dentistry',
+    description: 'Advanced laser technology for painless procedures with faster healing and minimal discomfort.',
+    icon: <Zap />,
+    image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250',
+    slug: 'laser'
   },
   {
     title: 'Oral Surgery & Jaw Care',
@@ -67,7 +67,7 @@ export default function Home() {
                 <span className="text-primary"> Laser Precision</span>
               </h1>
               <p className="text-xl text-neutral-600 mb-8 leading-relaxed">
-                Experience advanced dental care with 28+ years of expertise. NABH accredited clinic offering laser dentistry, dental implants, and comprehensive oral health solutions.
+                Experience advanced dental care with 28+ years of expertise, offering laser dentistry, dental implants, and comprehensive oral health solutions.
               </p>
               
               {/* CTA Buttons */}
@@ -78,10 +78,6 @@ export default function Home() {
                     Book Appointment
                   </Button>
                 </Link>
-                <Button variant="outline" className="border-2 border-primary text-primary hover:bg-primary hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300">
-                  <Video className="mr-2 h-4 w-4" />
-                  Virtual Consult
-                </Button>
               </div>
 
               {/* Trust Indicators */}
@@ -95,10 +91,6 @@ export default function Home() {
                     <Star className="w-4 h-4 fill-current" />
                   </div>
                   <span className="font-semibold text-neutral-700">4.5 Rating</span>
-                </div>
-                <div className="flex items-center text-neutral-700">
-                  <Award className="text-primary mr-2 w-4 h-4" />
-                  <span className="font-semibold">NABH Accredited</span>
                 </div>
                 <div className="flex items-center text-neutral-700">
                   <User className="text-primary mr-2 w-4 h-4" />

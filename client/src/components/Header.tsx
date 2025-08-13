@@ -12,9 +12,7 @@ export default function Header() {
     { name: 'About', href: '/about' },
     { name: 'Team', href: '/team' },
     { name: 'Services', href: '/services' },
-    { name: 'Smile Analysis', href: '/smile-analysis' },
-    { name: 'Tourism', href: '/tourism' },
-    { name: 'Contact', href: '/contact' },
+    { name: 'Tourism', href: '/tourism' }
   ];
 
   return (
@@ -26,7 +24,7 @@ export default function Header() {
             <div className="w-8 h-8 mr-2 bg-primary rounded-full flex items-center justify-center">
               <div className="w-4 h-4 bg-white rounded-full"></div>
             </div>
-            Medcare Dwarka
+            Medcare 
           </Link>
 
           {/* Desktop Navigation */}
@@ -48,10 +46,13 @@ export default function Header() {
 
           {/* Emergency Contact & Mobile Menu */}
           <div className="flex items-center space-x-4">
-            <div className="hidden lg:flex items-center text-primary">
-              <Phone className="w-4 h-4 mr-2" />
-              <span className="font-semibold">+91 12345 67890</span>
-            </div>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                <Link href="/contact">
+                  <Button className="bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    Book Appointment
+                  </Button>
+                </Link>
+              </div>
             
             <Button
               variant="ghost"

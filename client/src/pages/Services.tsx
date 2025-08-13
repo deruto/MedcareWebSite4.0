@@ -5,13 +5,6 @@ import { Zap, Heart, Shield, Baby, Smile, Sparkles } from 'lucide-react';
 
 const services = [
   {
-    title: 'Laser Dentistry',
-    description: 'Advanced laser technology for painless procedures with faster healing and minimal discomfort.',
-    icon: <Zap />,
-    image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250',
-    slug: 'laser'
-  },
-  {
     title: 'Root Canal Treatment',
     description: 'Expert endodontic care to save your natural teeth with advanced pain management techniques.',
     icon: <Heart />,
@@ -24,6 +17,13 @@ const services = [
     icon: <Shield />,
     image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250',
     slug: 'implants'
+  },
+  {
+    title: 'Laser Dentistry',
+    description: 'Advanced laser technology for painless procedures with faster healing and minimal discomfort.',
+    icon: <Zap />,
+    image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250',
+    slug: 'laser'
   },
   {
     title: 'Oral Surgery & Jaw Care',

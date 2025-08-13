@@ -21,7 +21,6 @@ function Router() {
       <Route path="/team" component={Team} />
       <Route path="/services" component={Services} />
       <Route path="/services/:service" component={ServiceDetail} />
-      <Route path="/smile-analysis" component={SmileAnalysis} />
       <Route path="/tourism" component={Tourism} />
       <Route path="/contact" component={Contact} />
       <Route component={NotFound} />
