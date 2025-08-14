@@ -11,13 +11,13 @@ export default function Tourism() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h1 className="text-4xl font-bold text-neutral-800 mb-4">Global Dental Services</h1>
+            <h1 className="text-4xl font-bold text-neutral-800 mb-4"><span style={{ fontFamily: 'Handel' }}>Global Dental Services</span></h1>
             <p className="text-xl text-neutral-600">Comprehensive support for our international patients</p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 items-top">
             <div>
-              <h2 className="text-3xl font-bold text-neutral-800 mb-6">Complete Support Package</h2>
+              <h2 className="text-3xl font-bold text-neutral-800 mb-6"><span style={{ fontFamily: 'Handel' }}>Complete Support Package</span></h2>
               
               <div className="space-y-6">
 

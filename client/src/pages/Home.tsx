@@ -63,8 +63,10 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="text-center lg:text-left">
               <h1 className="text-4xl lg:text-6xl font-bold text-neutral-800 mb-6 leading-tight">
+                <span style={{ fontFamily: 'Handel' }}>
                 Painless Dentistry with 
-                <span className="text-primary"> Laser Precision</span>
+                <span className="text-primary" style={{ fontFamily: 'Handel' }}> Laser Precision</span>
+                </span>
               </h1>
               <p className="text-xl text-neutral-600 mb-8 leading-relaxed">
                 Experience advanced dental care with 28+ years of expertise, offering laser dentistry, dental implants, and comprehensive oral health solutions.
@@ -126,7 +128,7 @@ export default function Home() {
       <section className="py-20 bg-neutral-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-neutral-800 mb-4">Our Specialized Services</h2>
+            <h2 className="text-4xl font-bold text-neutral-800 mb-4"><span style={{ fontFamily: 'Handel' }}>Our Specialized Services</span></h2>
             <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
               Advanced dental treatments using cutting-edge technology for optimal patient comfort and results
             </p>
@@ -153,7 +155,7 @@ export default function Home() {
       {/* Booking Section */}
       <section className="py-20 bg-primary text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl font-bold mb-6">Book Your Appointment Today</h2>
+          <h2 className="text-4xl font-bold mb-6"><span style={{ fontFamily: 'Handel' }}>Book Your Appointment Today</span></h2>
           <p className="text-xl mb-12 opacity-90">Experience painless dentistry with our expert team</p>
           
           <BookingForm />

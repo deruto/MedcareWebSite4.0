@@ -32,7 +32,7 @@ export default function TestimonialCarousel() {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-neutral-800 mb-4">What Our Patients Say</h2>
+          <h2 className="text-4xl font-bold text-neutral-800 mb-4"><span style={{ fontFamily: 'Handel' }}>What Our Patients Say</span></h2>
           <p className="text-xl text-neutral-600">Real experiences from our valued patients</p>
         </div>
 

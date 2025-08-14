@@ -38,7 +38,7 @@ export default function Team() {
       <section className="py-20 bg-neutral-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h1 className="text-4xl font-bold text-neutral-800 mb-4">Meet Our Expert Team</h1>
+            <h1 className="text-4xl font-bold text-neutral-800 mb-4"><span style={{ fontFamily: 'Handel' }}>Meet Our Expert Team</span></h1>
             <p className="text-xl text-neutral-600 max-w-3xl mx-auto">
               Our experienced dental professionals are committed to providing exceptional care
             </p>

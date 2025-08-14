@@ -10,7 +10,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-4xl font-bold text-neutral-800 mb-6">About Us</h1>
+              <h1 className="text-4xl font-bold text-neutral-800 mb-6"><span style={{ fontFamily: 'Handel' }}>About Us</span></h1>
               <p className="text-lg text-neutral-600 mb-6 leading-relaxed">
                 At Med Care Dental & Laser Centre, we believe your smile is more than just teeth — it's a reflection of your<strong> health, confidence, and personality.</strong><br />
 Med Care offers advanced laser dentistry with all four types of dental lasers, ensuring precision, faster healing, and minimal discomfort. <br />Backed by 25+ years of experience, we combine cutting-edge digital <strong> OPG imaging and modern technologies </strong> to deliver safe, effective, and patient-focused care. Consistently rated <strong>4.5+ stars</strong>, we’re known for ethical practices, innovation, and a commitment to redefining the dental experience.

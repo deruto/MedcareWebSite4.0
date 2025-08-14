@@ -12,7 +12,9 @@ export default function Footer() {
               <div className="w-8 h-8 mr-2 bg-primary rounded-full flex items-center justify-center">
                 <div className="w-4 h-4 bg-white rounded-full"></div>
               </div>
+              <span style={{ fontFamily: 'Handel' }}>
               Medcare Dwarka
+              </span>
             </div>
             <p className="text-neutral-300 mb-6">
               Leading dental care provider with 28+ years of experience in advanced dentistry and laser treatments.
@@ -37,7 +39,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
+            <h4 className="font-semibold text-lg mb-4"><span style={{ fontFamily: 'Handel' }}>Quick Links</span></h4>
             <ul className="space-y-2">
               <li><Link href="/"><a className="text-neutral-300 hover:text-primary transition-colors duration-300">Home</a></Link></li>
               <li><Link href="/about"><a className="text-neutral-300 hover:text-primary transition-colors duration-300">About Us</a></Link></li>
@@ -49,7 +51,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="font-semibold text-lg mb-4">Our Services</h4>
+            <h4 className="font-semibold text-lg mb-4"><span style={{ fontFamily: 'Handel' }}>Our Services</span></h4>
             <ul className="space-y-2">
               <li><Link href="/services/laser"><a className="text-neutral-300 hover:text-primary transition-colors duration-300">Laser Dentistry</a></Link></li>
               <li><Link href="/services/implants"><a className="text-neutral-300 hover:text-primary transition-colors duration-300">Dental Implants</a></Link></li>
@@ -61,7 +63,7 @@ export default function Footer() {
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-semibold text-lg mb-4">Contact Info</h4>
+            <h4 className="font-semibold text-lg mb-4"><span style={{ fontFamily: 'Handel' }}>Contact Info</span></h4>
             <div className="space-y-3">
               <div className="flex items-center">
                 <Phone className="text-primary mr-3 w-4 h-4" />
