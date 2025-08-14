@@ -19,7 +19,7 @@ const services = [
     title: 'Dental Implants',
     description: 'Permanent solutions for missing teeth with titanium implants for natural look and function.',
     icon: <Shield />,
-    image: 'https://images.unsplash.com/photo-1559757175-0eb30cd8c063?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250',
+    image: 'https://images.unsplash.com/photo-1593022356769-11f762e25ed9?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     slug: 'implants'
   },
   {
@@ -47,7 +47,7 @@ const services = [
     title: 'Preventive Care',
     description: 'Regular checkups, cleanings, and preventive treatments to maintain optimal oral health.',
     icon: <Sparkles />,
-    image: 'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=250',
+    image: 'https://images.unsplash.com/photo-1606811842243-af7e16970c1f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     slug: 'preventive'
   }
 ];
@@ -163,7 +163,7 @@ export default function Home() {
       {/* Floating WhatsApp Button */}
       <div className="fixed bottom-6 right-6 z-50">
         <a 
-          href="https://wa.me/919876543210" 
+          href="https://wa.me/919810034578" 
           target="_blank" 
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 transform hover:scale-110 animate-pulse-slow"

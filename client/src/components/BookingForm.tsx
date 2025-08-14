@@ -19,7 +19,7 @@ const services = [
   'Laser Dentistry',
   'Root Canal Treatment',
   'Dental Implants',
-  'Pediatric Dentistry',
+  'Oral Surgery & Jaw Care',
   'Smile Design',
   'Preventive Care'
 ];

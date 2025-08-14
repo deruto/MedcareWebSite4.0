@@ -55,7 +55,7 @@ export default function Footer() {
               <li><Link href="/services/implants"><a className="text-neutral-300 hover:text-primary transition-colors duration-300">Dental Implants</a></Link></li>
               <li><Link href="/services/rct"><a className="text-neutral-300 hover:text-primary transition-colors duration-300">Root Canal</a></Link></li>
               <li><Link href="/services/smile-design"><a className="text-neutral-300 hover:text-primary transition-colors duration-300">Smile Design</a></Link></li>
-              <li><Link href="/services/pediatric"><a className="text-neutral-300 hover:text-primary transition-colors duration-300">Pediatric Care</a></Link></li>
+              <li><Link href="/services/jawcare"><a className="text-neutral-300 hover:text-primary transition-colors duration-300">Oral Surgery & Jaw Care</a></Link></li>
             </ul>
           </div>
 

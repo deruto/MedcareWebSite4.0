@@ -15,22 +15,12 @@ export default function Tourism() {
             <p className="text-xl text-neutral-600">Comprehensive support for our international patients</p>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 items-top">
             <div>
               <h2 className="text-3xl font-bold text-neutral-800 mb-6">Complete Support Package</h2>
               
               <div className="space-y-6">
-                <div className="flex items-start">
-                  <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center mr-4 mt-1">
-                    <IdCard className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-neutral-800 mb-2">Visa Assistance</h3>
-                    <p className="text-neutral-600">
-                      We provide complete visa application support and documentation assistance for medical tourism.
-                    </p>
-                  </div>
-                </div>
+
 
                 <div className="flex items-start">
                   <div className="bg-primary text-white rounded-full w-12 h-12 flex items-center justify-center mr-4 mt-1">
@@ -39,21 +29,9 @@ export default function Tourism() {
                   <div>
                     <h3 className="font-semibold text-neutral-800 mb-2">Language Support</h3>
                     <p className="text-neutral-600 mb-3">
-                      Our multilingual staff can assist you in your preferred language.
+                      Clear communication and support for patients worldwide.
                     </p>
                     <div className="max-w-xs">
-                      <Select>
-                        <SelectTrigger>
-                          <SelectValue placeholder="Select Language" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          <SelectItem value="english">English</SelectItem>
-                          <SelectItem value="spanish">Spanish</SelectItem>
-                          <SelectItem value="french">French</SelectItem>
-                          <SelectItem value="german">German</SelectItem>
-                          <SelectItem value="arabic">Arabic</SelectItem>
-                        </SelectContent>
-                      </Select>
                     </div>
                   </div>
                 </div>
