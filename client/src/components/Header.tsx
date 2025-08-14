@@ -24,7 +24,7 @@ export default function Header() {
             <div className="w-8 h-8 mr-2 bg-primary rounded-full flex items-center justify-center">
               <div className="w-4 h-4 bg-white rounded-full"></div>
             </div>
-            Medcare 
+            <span style={{ fontFamily: 'Handel' }}>Medcare</span>
           </Link>
 
           {/* Desktop Navigation */}

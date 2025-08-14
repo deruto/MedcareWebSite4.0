@@ -60,6 +60,13 @@
   --ring: hsl(354, 70%, 54%);
 }
 
+@font-face {
+  font-family: 'Handel';
+  src: url('https://db.onlinewebfonts.com/t/ee9496bc8d3a9409162bbc9a32226de1.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
 @layer base {
   * {
     @apply border-border;
