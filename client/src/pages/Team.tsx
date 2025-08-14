@@ -6,15 +6,27 @@ const teamMembers = [
   {
     name: 'Dr. Raj Arya',
     specialty: 'Orthodontics Specialist',
-    experience: 'Short Description',
-    photo: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400'
+    experience: '28+ years of experience general dentistry implants specialist',
+    photo: 'https://i.postimg.cc/vmWNrrSr/Screenshot-2025-08-13-165516.jpg'
   },
-  
   {
     name: 'Dr. Astha Arya',
     specialty: 'Conservative and Endodontics',
-    experience: 'Short Description',
-    photo: 'https://images.unsplash.com/photo-1594824475871-a8681c5da86e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400'
+    experience: 'Endodontist with 20+ years expertise in laser and advanced dental procedures',
+    photo: 'https://i.postimg.cc/QN1NPwKs/42067b39-ff6b-508e-b8ba-3b878e714f5e-1.jpg'
+  },
+  {
+    name: 'Dr. Satyavrat Arya',
+    specialty: 'Orthodontics Specialist',
+    experience: '12+ years expertise in implants and TMJ care',
+    photo: 'https://i.postimg.cc/XJc94bV5/Screenshot-2025-08-14-130144.jpg'
+  },
+  
+  {
+    name: 'Dr. Rajnish Sethi',
+    specialty: 'Conservative and Endodontics',
+    experience: '22+ years experience in joint and spine surgeries.',
+    photo: 'https://i.postimg.cc/PrmJ745L/dr-rajnish-sethi-18747.jpg'
   }
 ];
 
@@ -32,13 +44,13 @@ export default function Team() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member) => (
               <div key={member.name} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
                 <img 
                   src={member.photo} 
                   alt={member.name} 
-                  className="w-full h-64 object-cover" 
+                  className="w-full aspect-square object-cover object-center" 
                 />
                 <div className="p-6 text-center">
                   <h3 className="text-xl font-bold text-neutral-800 mb-2">{member.name}</h3>
