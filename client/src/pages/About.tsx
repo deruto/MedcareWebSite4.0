@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 
 export default function About() {
   return (
-    <div>
+    <div className="oxanium-font">
       <Header />
       
       <section className="py-20 bg-white">

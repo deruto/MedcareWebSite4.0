@@ -54,7 +54,7 @@ const services = [
 
 export default function Home() {
   return (
-    <div>
+    <div className="oxanium-font">
       <Header />
       
       {/* Hero Section */}

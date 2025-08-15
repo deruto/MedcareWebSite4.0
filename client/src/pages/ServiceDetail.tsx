@@ -149,7 +149,7 @@ export default function ServiceDetail() {
 
   if (!service) {
     return (
-      <div>
+      <div className="oxanium-font">
         <Header />
         <div className="min-h-screen flex items-center justify-center">
           <div className="text-center">
@@ -163,7 +163,7 @@ export default function ServiceDetail() {
   }
 
   return (
-    <div>
+    <div className="oxanium-font">
       <Header />
       
       {/* Hero Section */}

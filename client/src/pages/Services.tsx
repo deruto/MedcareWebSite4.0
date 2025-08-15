@@ -50,7 +50,7 @@ const services = [
 
 export default function Services() {
   return (
-    <div>
+    <div className="oxanium-font">
       <Header />
       
       <section className="py-20 bg-neutral-50">

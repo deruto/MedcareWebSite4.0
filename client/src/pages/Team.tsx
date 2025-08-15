@@ -32,7 +32,7 @@ const teamMembers = [
 
 export default function Team() {
   return (
-    <div>
+    <div className="oxanium-font">
       <Header />
       
       <section className="py-20 bg-neutral-50">

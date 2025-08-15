@@ -5,7 +5,7 @@ import { IdCard, Languages, Hotel, Car, MapPin, CreditCard } from 'lucide-react'
 
 export default function Tourism() {
   return (
-    <div>
+    <div className="oxanium-font">
       <Header />
       
       <section className="py-20 bg-white">
