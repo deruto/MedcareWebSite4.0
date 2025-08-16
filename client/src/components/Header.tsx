@@ -20,11 +20,11 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center text-primary font-bold text-2xl cursor-pointer">
+          <Link href="/" className="flex items-center text-primary font-bold text-4xl cursor-pointer">
             <div className="w-8 h-8 mr-2 bg-primary rounded-full flex items-center justify-center">
               <div className="w-4 h-4 bg-white rounded-full"></div>
             </div>
-            <span style={{ fontFamily: 'Handel' }}>Medcare</span>
+            <span style={{ fontFamily: 'Handel' }}>Med Care</span>
           </Link>
 
           {/* Desktop Navigation */}
