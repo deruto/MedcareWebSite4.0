@@ -1,0 +1,19 @@
+deployment:
+  tasks:
+    # Deployment path (replace ${CPANEL_USER} with your actual cPanel username)
+    - export DEPLOYPATH=/home/rbsyj7xvnyph/nodeapp
+
+    # Clean old deployment
+    - /bin/rm -rf $DEPLOYPATH/*
+
+    # Copy repo contents into deploy path
+    - /bin/cp -R * $DEPLOYPATH
+
+    # Install dependencies
+    - cd $DEPLOYPATH && /opt/cpanel/ea-nodejs16/bin/npm install
+
+    # Build frontend + backend together
+    - cd $DEPLOYPATH && /opt/cpanel/ea-nodejs16/bin/npm run build
+
+    # Start server
+    - cd $DEPLOYPATH && /opt/cpanel/ea-nodejs16/bin/npm run start

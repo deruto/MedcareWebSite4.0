@@ -48,11 +48,7 @@ export default function TestimonialCarousel() {
               </div>
               <p className="text-neutral-700 mb-6 italic">"{testimonial.content}"</p>
               <div className="flex items-center">
-                <img 
-                  src={testimonial.image} 
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full mr-4 object-cover"
-                />
+                
                 <div>
                   <div className="font-semibold text-neutral-800">{testimonial.name}</div>
                   <div className="text-neutral-600 text-sm">{testimonial.role}</div>

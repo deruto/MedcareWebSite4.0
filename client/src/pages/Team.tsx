@@ -57,8 +57,6 @@ export default function Team() {
                   <p className="text-primary font-semibold mb-2">{member.specialty}</p>
                   <p className="text-neutral-600 mb-4">{member.experience}</p>
                   <div className="flex justify-center space-x-4">
-                    <Linkedin className="text-primary hover:text-primary-dark cursor-pointer w-5 h-5" />
-                    <Mail className="text-primary hover:text-primary-dark cursor-pointer w-5 h-5" />
                   </div>
                 </div>
               </div>
